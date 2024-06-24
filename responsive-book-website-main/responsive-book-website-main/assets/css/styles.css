@@ -323,6 +323,36 @@ img {
   color: var(--text-color);
 }
 
+.login__signup,
+.login__forgot{
+  display: block;
+  font-size: var(--small-font-size);
+}
+
+.login__signup{
+margin-bottom: .5rem;
+}
+
+.login__signup a{
+  color: var(--first-color);
+  font-weight: var(--font-medium);
+}
+
+.login__forgot{
+  color: var(--first-color);
+  margin-bottom: 1.25rem;
+}
+
+.login__close{
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  font-size: 2rem;
+  color: var(--title-color);
+  cursor: pointer;
+
+}
+
 
 /* Show login */
 
@@ -334,7 +364,13 @@ img {
 
 
 /*=============== BUTTON ===============*/
-
+.button{
+  display: inline-block;
+  background-color: var(--first-color);
+  color: var(--white-color);
+  font-weight: var(--font-semi-bold);
+  padding: 1rem;
+}
 
 /*=============== SERVICES ===============*/
 
