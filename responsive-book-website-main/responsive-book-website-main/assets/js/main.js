@@ -5,17 +5,17 @@ searchContent = document.getElementById('search-content')
 
 /*=============== MENU SHOW ========== */
 /* Validate if constant exists */
-if(navtoggle){
-    navToggle.addEventListener('click', () =>{
-        navMenu.classList.add('show-menu')
+if(searchButton){
+    searchButton.addEventListener('click', () =>{
+        searchContent.classList.add('show-search')
     })
 }
 
 /*======= MENU HIDDEN ==========*/
 /* Validate if constant exists */
-if(navClose){
-    navClose.addEventListener('click', () => {
-        navMenu.classList('show-menu')
+if(searchClose){
+    searchClose.addEventListener('click', () =>{
+        searchContent.classList.remove('show-search')
     })
 }
 
