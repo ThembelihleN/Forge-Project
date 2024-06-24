@@ -162,8 +162,20 @@ img {
   font-weight: var(--font-medium);
 }
 
-/* Navigation for mobile devices */
+.nav__logo i{
+  font-size: 1.25rem;
+}
 
+/* Navigation for mobile devices */
+@media screen and (max-width: 1150px){
+  .nav__menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+}
 
 /* Add shadow header */
 
