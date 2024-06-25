@@ -37,6 +37,7 @@ if(loginButton){
 if(loginClose){
     loginClose.addEventListener('click', () =>{
         loginContent.classList.remove('show-login')
+        
     })
 }
 
