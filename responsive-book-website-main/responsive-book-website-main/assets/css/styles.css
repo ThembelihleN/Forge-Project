@@ -279,7 +279,7 @@ img {
 /*=============== LOGIN ===============*/
 .login{
   position: fixed;
-  top: 0;
+  top: -100;
   left: 0;
   width: 100%;
   height: 100%;
@@ -343,14 +343,19 @@ margin-bottom: .5rem;
   margin-bottom: 1.25rem;
 }
 
+.login__button{
+  width: 100px;
+  cursor: pointer;
+}
+
+
 .login__close{
   position: absolute;
   top: 2rem;
   right: 2rem;
   font-size: 2rem;
-  color: var(--title-color);
+  color: var(--title-color);  
   cursor: pointer;
-
 }
 
 
@@ -369,8 +374,14 @@ margin-bottom: .5rem;
   background-color: var(--first-color);
   color: var(--white-color);
   font-weight: var(--font-semi-bold);
-  padding: 1rem;
+  padding: 1rem; 
+  transition: box-shadow .4s;
 }
+
+button:hover{
+  box-shadow: 0 4px 32px hsla(230, 72%, 32% .4);
+}
+
 
 /*=============== SERVICES ===============*/
 
