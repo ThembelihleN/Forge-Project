@@ -29,7 +29,7 @@ loginContent =document.getElementById('login-content')
 if(loginButton){
     loginButton.addEventListener('click', () =>{
         loginContent.classList.add('show-login')
-    })
+    })  
 }
 
 /*============== LOGIN HIDDEN ================ */
