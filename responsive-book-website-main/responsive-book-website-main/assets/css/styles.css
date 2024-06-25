@@ -181,7 +181,6 @@ img {
   }
 }
 
-
 .nav__list{
   display:flex;
   justify-content: space-between;
@@ -270,7 +269,6 @@ img {
   cursor: pointer;
 }
 
-
 /* Show search */
 .show-search{
   top:0;
@@ -348,7 +346,6 @@ margin-bottom: .5rem;
   cursor: pointer;
 }
 
-
 .login__close{
   position: absolute;
   top: 2rem;
@@ -360,7 +357,10 @@ margin-bottom: .5rem;
 
 
 /* Show login */
-
+.show-login{
+  top: 0;
+  
+}
 
 /*=============== HOME ===============*/
 
