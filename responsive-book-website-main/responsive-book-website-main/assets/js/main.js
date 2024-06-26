@@ -21,8 +21,8 @@ if(searchClose){
 
 /*=============== LOGIN ===============*/
 const loginButton = document.getElementById('login-button'),
-loginClose =document.getElementById('login-close'),
-loginContent =document.getElementById('login-content')
+loginClose = document.getElementById('login-close'),
+loginContent = document.getElementById('login-content')
 
 /*=============== LOGIN SHOW ============== */
 /* Validate if constant exists */
@@ -37,10 +37,8 @@ if(loginButton){
 if(loginClose){
     loginClose.addEventListener('click', () =>{
         loginContent.classList.remove('show-login')
-        
     })
 }
-
 
 /*=============== ADD SHADOW HEADER ===============*/
 const shadowHeader = () => {

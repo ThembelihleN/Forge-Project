@@ -89,7 +89,7 @@
          <i class="ri-close-line search__close" id="search-close"></i>
       </div>
 
-      <!--==================== LOGIN ====================-->
+      <!--==================== LOGIN ====================--> 
       <div class="login grid" id="login-content">
          <form action="" class="login__form grid">
             <h3 class="login__title">Log In</h3>
@@ -101,8 +101,8 @@
                </div>
 
                <div>
-                  <label for="login-pass" class="login__label"></label>
-                  <input type="email" placeholder="Enter your password" id="login-pass" class="login__input">
+                  <label for="login-pass" class="login__label">Password</label>
+                  <input type="password" placeholder="Enter your password" id="login-pass" class="login__input">
                </div>
             </div>
 
@@ -114,7 +114,7 @@
                   You forgot your password
                </a>
 
-               <button type="submit" class="login__button button">Log in</a>
+               <a><button type="submit" class="login__button button">Log in</a>
 
             </div>
          </form>
@@ -168,12 +168,54 @@
 
          <!--==================== SERVICES ====================-->
          <section class="services section">
-            
+            <div class="services__container container grid">
+               <arrticle class="services__card">
+                  <i class="ri-truck-line"></i>
+                  <h3 class="services__title">Free Shipping</h3>
+                  <p class="services__desciption">Order more than $100</p>
+               </arrticle>
+
+               <arrticle class="services__card">
+                  <i class="ri-lock-2-line"></i>
+                  <h3 class="services__title">Secure Payment</h3>
+                  <p class="services__desciption">100% Secure payment</p>
+               </arrticle>
+
+               <arrticle class="services__card">
+                  <i class="ri-customer-service-2-line"></i>
+                  <h3 class="services__title">24/7 Support</h3>
+                  <p class="services__desciption">Call us anytime</p>
+               </arrticle>
+            </div>
          </section>
 
          <!--==================== FEATURED ====================-->
          <section class="featured section" id="featured">
-            
+            <h2 class="section__title">
+               Featured Books
+            </h2>
+
+            <div class="featured__container container">
+               <div class="featured__swiper">
+                  <div>
+                     <article class="featured__card">
+                        <img src="assets/img/book-1.png" alt="image" class="featured__img">
+
+                        <h2 class="featured__title">Featured Book</h2>
+                        <div class="featured__prices">
+                           <span class="featured__discount">$11.99</span>
+                           <span class="featured__price">$19.99</span>
+                        </div>
+
+                        <div class="featured__actions">
+                           <button> <i class="ri-search-line"></i> </button>
+                           <button> <i class="ri-heart-3-line"></i> </button>
+                           <button> <i class="ri-eye-line"></i> </button>
+                        </div>
+                     </article>
+                  </div>
+               </div>
+            </div>
          </section>
 
          <!--==================== DISCOUNT ====================-->

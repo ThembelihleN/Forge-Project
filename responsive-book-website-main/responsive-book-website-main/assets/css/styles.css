@@ -219,7 +219,11 @@ img {
 .nav__actions i:hover{
   color: var(--first-color);
 }
+
 /* Add shadow header */
+.shadow-header{
+  box-shadow: 0 2px 16px hsla(0, 0% 0% .1);
+}
 
 
 /* Active link */
@@ -418,11 +422,30 @@ button:hover{
   box-shadow: 0 4px 32px hsla(230, 72%, 32% .4);
 }
 
-
 /*=============== SERVICES ===============*/
+.service__container{
+  row-gap: 3rem;
+}
+
+.services__card{
+  text-align: center;
+}
+
+.services__card i{
+  display: block;
+  font-size: 3rem;
+  color: var(--first-color);
+  margin-bottom: 1rem;
+}
+
+.services__title{
+  
+}
 
 
-/*=============== FEATURED ===============*/
+
+/*=============== FEA
+TURED ===============*/
 
 
 /* Swiper class */
