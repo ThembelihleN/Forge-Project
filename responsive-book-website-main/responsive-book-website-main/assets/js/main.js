@@ -43,7 +43,13 @@ if(loginClose){
 
 
 /*=============== ADD SHADOW HEADER ===============*/
-
+const shadowHeader = () => {
+    const header = getElementById('header')
+    //when the scroll is greater than 50 viewport height,
+    this.scrollY >= 50 ? header.classList.add('shadow-header')
+                        :header.classList.remove('shadow-header')
+}
+window.addEventListener('scroll', shadowHeader)
 
 /*=============== HOME SWIPER ===============*/
 let swiperHome = new swiper('.home__swiper', {
