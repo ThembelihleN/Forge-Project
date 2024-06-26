@@ -58,8 +58,11 @@ let swiperHome = new swiper('.home__swiper', {
         dissableOnInteraction: false,
     },
 
-    
-
+    breakpoints: {
+        1120: {
+            spaceBetween: -32,
+        }
+    }
 })
 
 
