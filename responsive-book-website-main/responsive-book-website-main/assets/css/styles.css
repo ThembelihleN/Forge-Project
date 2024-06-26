@@ -398,10 +398,11 @@ home__description{
   scale: .8;
 }
 
-
-
 /* Swiper class */
-
+.swiper-slide-active,
+.swiper-slide-duplicate-active{
+  scale: 1;
+}
 
 /*=============== BUTTON ===============*/
 .button{

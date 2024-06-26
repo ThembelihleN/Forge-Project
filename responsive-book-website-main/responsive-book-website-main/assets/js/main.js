@@ -46,6 +46,21 @@ if(loginClose){
 
 
 /*=============== HOME SWIPER ===============*/
+let swiperHome = new swiper('.home__swiper', {
+    loop: true,
+    spaceBetween: -24,
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
+
+    autoplay: {
+        delay: 3000,
+        dissableOnInteraction: false,
+    },
+
+    
+
+})
 
 
 /*=============== FEATURED SWIPER ===============*/
