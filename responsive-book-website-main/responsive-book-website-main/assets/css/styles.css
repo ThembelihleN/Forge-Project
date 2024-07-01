@@ -491,9 +491,22 @@ button:hover{
   row-gap: .75rem;
   position: absolute;
   top: 2rem;
-  right: 1.5rem;
+  right: -1.5rem;
   transition: right .4s;
 }
+
+.featured__actions .button{
+  background: none;
+  font-size: 1.5rem;
+  color: var(--first-color);
+  cursor: pointer;
+}
+
+.featured__card:hover .featured__actions{
+  right: 1.5rem;
+}
+
+
 /* Swiper class */
 
 
