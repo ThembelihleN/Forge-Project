@@ -76,10 +76,10 @@ let swiperFeatured = new Swiper('.featured__swiper', {
     slidesPerView: 'auto',
     centeredSlides: auto,
 
-    autoplay: {
+    /*autoplay: {
         delay: 3000,
         disableOnInteraction: false,
-    },
+    },*/
 
     breakpoints: {
         1150: {
